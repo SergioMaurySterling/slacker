@@ -1,0 +1,100 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+    height: 768px;
+    width: 1366px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.mainContainer{
+    display: flex;
+}
+
+.hr{
+    width: 350px;
+    border: 1px solid #565E72;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+.loginImageContainer{
+    width: 50%;
+}
+
+.loginFormContainer{
+    background-color: #04001E;
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+
+.loginForm{
+    width: 398px;
+    height: 514px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.formTitle{
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.googleButton{
+    width: 350px;
+    height: 48px;
+    background-color: white;
+    padding: 12px 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 32px;
+}
+
+.googleText{
+    color: #1F1F3A;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.brandLogo{
+    width: 80px;
+    height: 80px;
+}
+
+.loginFormText{
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    margin-bottom: 4px;
+}
+
+.loginFormInput{
+    width: 348px;
+    height: 48px;
+    border-radius: 4px;
+    border: 1px solid white;
+    background-color: #727E8F;
+    padding: 0px;
+    margin-bottom: 16px;
+}
+
+.loginButton{
+    width: 350px;
+    height: 48px;
+    background-color: #F0187C;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

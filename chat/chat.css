@@ -1,0 +1,110 @@
+.body{
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  color: white;
+}
+
+.logoContainer{
+  width: 66px;
+  height: 800px;
+  background-color: #11033F;
+  display: flex;
+  justify-content: center;
+}
+
+.logo{
+  width: 42px;
+  height: 42px;
+  margin-top: 16px;
+  border: solid 2px white;
+  border-radius: 10px;
+}
+
+.chatMenu{
+  width: 260px;
+  height: 800px;
+  background-color: #11033F;
+  border-left: solid 1px #ebb9d0;
+  border-right: solid 1px #ebb9d0;
+}
+
+.chatMenuTitleContainer{
+  padding-left: 16px;
+  padding-right: 16px;
+  width: 226px;
+  height: 56px;
+  border-bottom: solid 1px #ebb9d0;
+  margin-bottom: 16px;
+}
+
+.chatMenuTitleContainer h1{
+  font-size: 16px;
+  font-weight: 700;
+  font-style: normal;
+  line-height: 24px;
+}
+
+.channels{
+  width: 226px;
+  height: auto;
+}
+
+.channels h4 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 16px;
+}
+
+.channels p {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  width: 244px;
+  padding-left: 16px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.channels p:hover {
+  background-color: #F0187C;
+}
+
+.dm h1{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 700;
+  font-style: normal;
+  margin-left: 16px;
+}
+
+.chatImgMsj{
+  display: flex;
+  margin-left: 16px;
+  width: auto;
+  height: 32px;
+  align-items: center;
+}
+
+.chatImgMsj p{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  margin-left: 10px;
+}
+
+.green {
+  position: relative;
+  right: 5.5px;
+  top: 10px
+}
+
+.chat{
+  background-color: #1A1D21;
+  width: 1038px;
+  height: 800px;
+}
+
